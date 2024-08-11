@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2019", // Update target to at least ES2019
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2019"] // Include the ES2019 library
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
