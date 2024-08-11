@@ -9,6 +9,7 @@ This backend is built with Node.js, Express, and MongoDB, providing RESTful API 
 - [Design Practices](#design-practices)
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
+- [API Documentation](#api-documentation)
 - [Database](#database)
 - [Authentication and Authorization](#authentication-and-authorization)
 - [Controllers](#controllers)
@@ -80,6 +81,14 @@ Once the overall implementation is done, and to start the application run the be
 
 ```
 npm run dev
+```
+
+## API Documentation
+
+The swagger based API documentation in place and could be access using the authentication free route given below.
+
+```
+http://localhost:5000/api-docs/
 ```
 
 ## Database
